@@ -1,4 +1,4 @@
-createGrid(16);
+createGrid(100);
 
 const squares = document.querySelectorAll('.square');
 squares.forEach(square => {
@@ -14,7 +14,6 @@ function createGrid(size) {
     for(let i = 0; i < size*size; i++) {
         const temporary = document.createElement('div');
         temporary.classList.add('square');
-        temporary.textContent = i + 1;
         container.appendChild(temporary);
     }
     document.body.prepend(container);
