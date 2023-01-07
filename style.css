@@ -1,0 +1,15 @@
+div.container   {
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+div.container div {
+    height: 62px;
+    width: 62px;
+}
+
+.coloured {
+    background-color: blue;
+}
