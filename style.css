@@ -1,13 +1,14 @@
 div.container   {
-    display: flex;
-    height: 1000px;
-    width: 1000px;
-    flex-wrap: wrap;
+    display: grid;
+    height: 960px;
+    width: 960px;
+    border-style: solid;
 }
 
-div.container div {
-    height: 62px;
-    width: 62px;
+.square {
+    box-sizing: border-box;
+    border-style: dotted;
+    border-width: 1px;
 }
 
 .coloured {
